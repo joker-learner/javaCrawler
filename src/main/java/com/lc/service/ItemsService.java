@@ -12,6 +12,6 @@ public interface ItemsService {
     /**
      * 根据条件查询商品
      */
-    List<Item> query(Item item);
+    List<Item> findAll(Item item);
 
 }

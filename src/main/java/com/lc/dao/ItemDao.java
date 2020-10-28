@@ -13,5 +13,5 @@ public interface ItemDao extends JpaRepository<Item, Long> {
 
     void update(Item item);
 
-    Item selectByid(long id);
+    Item findAll(Item item);
 }
