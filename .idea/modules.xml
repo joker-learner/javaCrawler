@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jd-crawler-springboot.iml" filepath="$PROJECT_DIR$/jd-crawler-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Spring/spring_ioc/spring_ioc.iml" filepath="$PROJECT_DIR$/../Spring/spring_ioc/spring_ioc.iml" />
+    </modules>
+  </component>
+</project>
