@@ -7,7 +7,6 @@ import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
 @Service
 public class ItemsServiceImple implements ItemsService {
 
@@ -15,16 +14,15 @@ public class ItemsServiceImple implements ItemsService {
     private ItemDao itemDao;
 
     /**
-     * 保存条件
+     * 保存商品
      * @param item
      */
     @Override
-    public void add(Item item) {
-        this.itemDao.add(item);
+    public void save(Item item) {
+        this.itemDao.save(item);
     }
 
     /**
-     *
      * 根据条件查询
      * @param item
      * @return

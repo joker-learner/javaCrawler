@@ -1,22 +1,21 @@
 package com.lc.pojo;
 
 import lombok.Data;
-import org.springframework.stereotype.Component;
+
 import javax.persistence.*;
 import java.util.Date;
-
 @Data
 @Entity
 @Table(name = "jd_items")
-@Component("item")
+//@Component("item")
 public class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
-    private long spu;
+    private Long spu;
 
-    private long sku;
+    private Long sku;
 
     private String title;
 
@@ -30,6 +29,4 @@ public class Item {
 
     private Date updatetime;
 
-    public Item() {
-    }
 }

@@ -8,10 +8,9 @@ public interface ItemsService {
     /**
      * c查询商品
      */
-    void add(Item item);
+    void save(Item item);
     /**
      * 根据条件查询商品
      */
     List<Item> findAll(Item item);
-
 }
