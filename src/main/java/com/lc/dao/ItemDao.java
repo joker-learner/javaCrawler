@@ -1,9 +1,8 @@
 package com.lc.dao;
 
-
 import com.lc.pojo.Item;
 
-public interface CrawlerDao {
+public interface ItemDao {
 
     void add();
 

@@ -4,14 +4,18 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Component;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Table;
 import java.util.Date;
 
 @Table(name = "jd_items")
 @Component("item")
 @Data
+
 public class Item {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private long spu;
