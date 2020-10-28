@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="jd-crawler-springboot" target="10" />
+      <module name="jd-crawler-springboot" target="11" />
       <module name="spring_ioc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
